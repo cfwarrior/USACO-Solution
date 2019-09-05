@@ -1,6 +1,6 @@
 /*
 ID: codefor3
-TASK: xxx
+TASK: nocows
 LANG: C++                 
 */
 /* LANG can be C++11 or C++14 for those more recent releases */
@@ -9,18 +9,21 @@ LANG: C++
 #include <fstream>
 #include <string>
 #include <vector>
-#include <queue>
-#include <set>
-#include <map>
-
 
 using namespace std;
 
 int main() {
-    ofstream fout ("xxx.out");
-    ifstream fin ("xxx.in");
-    int a, b;
-    fin >> a >> b;
-    fout << a+b << endl;
+    ofstream fout ("nocows.out");
+    ifstream fin ("nocows.in");
+    int n, k;
+    fin >> n >> k;
+
+    if(n%2 == 0) {
+        fout << 0 << endl;
+        return 0;
+    }    
+    
+
+
     return 0;
 }
