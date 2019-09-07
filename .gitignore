@@ -1,3 +1,9 @@
-io.cpp
+# input output files
 *.in
 *.out
+
+# ignore .vscode
+.vscode/
+
+# executable
+
