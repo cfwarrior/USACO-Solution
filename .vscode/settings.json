@@ -13,6 +13,7 @@
         "unordered_map": "cpp",
         "iosfwd": "cpp",
         "typeinfo": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "map": "cpp"
     }
 }
