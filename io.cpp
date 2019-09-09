@@ -10,17 +10,29 @@ LANG: C++
 #include <string>
 #include <vector>
 #include <queue>
-#include <set>
-#include <map>
-
+#include <unordered_map>
+#include <stdio.h>
+#include <stdlib.h>
 
 using namespace std;
+int n;
+const int MAXN = 100001;
+const int MOD = 1e9 + 7;
+FILE *fi,*fo;
+// parameter
+
+
+void read() {
+    fi  = fopen("xxx.in", "r");
+    fo = fopen("xxx.out", "w");
+}
+
+void solve() {
+
+}
 
 int main() {
-    ofstream fout ("xxx.out");
-    ifstream fin ("xxx.in");
-    int a, b;
-    fin >> a >> b;
-    fout << a+b << endl;
+    read();
+    solve();
     return 0;
 }
